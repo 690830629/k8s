@@ -15,6 +15,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class K8SController {
     @RequestMapping("/k8s")
     public String k8s() {
-        return "hello K8s1234!";
+        return "hello K8s1!";
     }
 }
